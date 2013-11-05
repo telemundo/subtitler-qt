@@ -1,0 +1,29 @@
+.obj
+*.moc
+Makefile*
+*.dylib
+*.so.*
+*.so
+*.so.debug
+*.o
+*~
+.cd.rc
+*.swp
+.qmake.cache
+
+# Visual Studio files
+*.sln
+*.vcproj
+*.suo
+*.ncb
+*.user
+
+# QtCreator project files
+*.pro.user
+=======
+*.pro.user*
+*~
+
+# Failed patches
+*.orig
+*.rej
