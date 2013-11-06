@@ -1,0 +1,3 @@
+[submodule "lib/fervor"]
+	path = lib/fervor
+	url = https://github.com/pypt/fervor.git
