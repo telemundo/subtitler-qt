@@ -6,16 +6,16 @@ TARGET   = Subtitler
 VERSION  = 2.0
 TEMPLATE = app
 
-# Application icons
-mac:ICON = subtitler.icns
-win32:RC_FILE = subtitler.rc
+# Define icons
+mac:ICON = src/subtitler.icns
+win32:RC_FILE = src/subtitler.rc
 
-SOURCES += main.cpp \
-           mainwindow.cpp
+SOURCES += src/main.cpp \
+           src/subtitler.cpp
 
-HEADERS += mainwindow.h
+HEADERS += src/subtitler.h
 
-FORMS   += mainwindow.ui
+FORMS   += src/subtitler.ui
 
 # Define the preprocessor macro to get the application version in our application.
 DEFINES += APP_VERSION=\\\"$$VERSION\\\"
@@ -65,7 +65,7 @@ HEADERS += lib/ccextractor/608.h \
            lib/ccextractor/teletext.h
 
 mac {
-    INCLUDEPATH += "lib/ccextractor/gpacmp4/"
+    INCLUDEPATH += lib/ccextractor/gpacmp4/
 
     SOURCES += lib/ccextractor/gpacmp4/av_parsers.c \
                lib/ccextractor/gpacmp4/avc_ext.c \

@@ -1,9 +1,9 @@
-#include "mainwindow.h"
-#include "ui_mainwindow.h"
+#include "subtitler.h"
+#include "ui_subtitler.h"
 
-MainWindow::MainWindow(QWidget *parent) :
+Subtitler::Subtitler(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow)
+    ui(new Ui::Subtitler)
 {
     ui->setupUi(this);
 
@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent) :
     //ui->label->setText(tr("Version %1").arg(QApplication::applicationVersion()));
 }
 
-MainWindow::~MainWindow()
+Subtitler::~Subtitler()
 {
     delete ui;
 }

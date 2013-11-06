@@ -1,7 +1,7 @@
 #include <QApplication>
 #include <QIcon>
 
-#include "mainwindow.h"
+#include "subtitler.h"
 #include "fvupdater.h"
 
 int main(int argc, char *argv[])
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     FvUpdater::sharedUpdater()->CheckForUpdatesSilent();
 
     // Display main window
-    MainWindow window;
+    Subtitler window;
     window.show();
 
     return app.exec();
