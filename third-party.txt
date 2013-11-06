@@ -6,10 +6,6 @@ user's responsibility to ensure that they have met the licensing
 requirements of Subtitler and the relevant license of the Third Party
 Software they are using.
 
-Qt - http://qt-project.org/
-License: GNU Lesser General Public License version 2.1 (LGPLv2.1)
-Reference: http://qt-project.org/doc/qt-4.8/lgpl.html
-
 ccextractor - http://ccextractor.sourceforge.net/
 License: GNU General Public License version 2.0 (GPLv2)
 Reference: http://sourceforge.net/projects/ccextractor/
