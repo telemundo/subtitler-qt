@@ -2,19 +2,18 @@
 
 Multi-platform application to generate closed captioning data from raw video files.
 
-Requirements
-============
+## Usage
 
 Coming soon...
 
-Author
-======
+## Other
 
-[Rodolfo Puig][1]  
+Subtitler is free software/open source, and is distributed under the [MIT license][1].
+It contains third-party code, see the included `third-party.txt` file for the license
+information on third-party code.
 
-License
-=======
+Subtitler is created and maintained by [Rodolfo Puig][2] (Twitter: [@rudisimo][3]).
 
-This package is licensed under the MIT License - see the LICENSE.txt file for details.
-
-[1]: https://twitter.com/rudisimo "Follow @rudisimo on Twitter"
+[1]: http://opensource.org/licenses/MIT
+[2]: http://about.me/rudisimo "About.me Profile"
+[3]: https://twitter.com/rudisimo "Follow @rudisimo on Twitter"
